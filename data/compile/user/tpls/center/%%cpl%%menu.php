@@ -1,0 +1,1 @@
+<ul class="nav nav-tabs nav-stacked">	<li<?php if($this->tpl_var['method'] == 'index'){ ?> class="active"<?php } ?>>		<a href="index.php?user-app">首页</a>	</li>	<li<?php if($this->tpl_var['method'] == 'privatement'){ ?> class="active"<?php } ?>>		<a href="index.php?user-center-privatement">隐私管理</a>	</li>	</ul>
